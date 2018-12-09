@@ -251,6 +251,12 @@ nav.scrolled .menu li a:active {
 	padding: 40px 0 80px 0;
 }
 
+@media (max-width: 375px) {
+	#press-release {
+		display: none;
+	}
+}
+
 #press-release h2{
 	color: #5B1F5F;
 	margin-bottom: 20px;
@@ -273,6 +279,12 @@ nav.scrolled .menu li a:active {
 	#press-release .slide {
 		margin: 0 5px;
 		font-size: 10px;
+	}
+}
+
+@media (max-width: 375px) {
+	#press-release .slide {
+		display: none;
 	}
 }
 
@@ -348,6 +360,12 @@ nav.scrolled .menu li a:active {
 #eco-system {
 	height: auto;
 	padding: 40px 200px;
+}
+
+@media (max-width: 375px) {
+	#eco-system {
+		display: none;
+	}
 }
 
 #eco-system p {
